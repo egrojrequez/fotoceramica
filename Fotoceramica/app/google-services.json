@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "508532322497",
+    "firebase_url": "https://fotoceramica-9c9e1.firebaseio.com",
+    "project_id": "fotoceramica-9c9e1",
+    "storage_bucket": "fotoceramica-9c9e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508532322497:android:3d184a98974e9183",
+        "android_client_info": {
+          "package_name": "com.example.jorgepc.fotoceramica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508532322497-2o45n9kguec7tte22q9su4mntrtlfee2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jorgepc.fotoceramica",
+            "certificate_hash": "f5e85279a13e64d4db24ae8902504b7556d555fc"
+          }
+        },
+        {
+          "client_id": "508532322497-o8i99kfot2kal9amhhqmpopraeru57uh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxtb-8arSK05QC7qDRBENbdpmsVdpuWKw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508532322497-o8i99kfot2kal9amhhqmpopraeru57uh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

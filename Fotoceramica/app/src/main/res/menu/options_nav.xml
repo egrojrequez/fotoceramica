@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/menuProductos"
+        android:title="@string/productos"
+        >
+
+            <menu>
+
+                <item
+                    android:id="@+id/producto20x30"
+                    android:title="@string/FotosClasicos"
+                    android:icon="@drawable/menufotoclasica"
+                    />
+
+                <item
+                    android:id="@+id/productoLoza"
+                    android:title="@string/FotosLoza"
+                    android:icon="@drawable/menuloza"
+                    />
+
+                <item
+                    android:id="@+id/productoLapida"
+                    android:title="@string/FotosLapidas"
+                    android:icon="@drawable/menulapida"
+                    />
+
+                <item
+                    android:id="@+id/productoPromociones"
+                    android:title="@string/FotosPromos"
+                    android:icon="@drawable/menupromocion"
+                    />
+
+                <item
+                    android:id="@+id/productoTazas"
+                    android:title="@string/FotosTazas"
+                    android:icon="@drawable/menutaza"
+                    />
+
+            </menu>
+
+
+
+
+
+
+    </item>
+
+
+
+
+
+
+</menu>

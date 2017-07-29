@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Fotocerámica Perú</string>
+
+    <string name="VerImagen">VER IMAGEN</string>
+    <string name="Inicio">Inicio</string>
+    <string name="productos">Productos</string>
+    <string name="FotosClasicos">Fotos clásicas</string>
+    <string name="FotosLoza">Lozas</string>
+    <string name="FotosLapidas">Lápidas</string>
+    <string name="FotosPromos">Promociones</string>
+    <string name="FotosTazas">Tazas</string>
+    <string name="abrir">Abrir</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="videos">Videos</string>
+    <string name="testimonios">Testimonios</string>
+    <string name="informacion">Información</string>
+    <string name="header">Fotocerámica Perú</string>
+    <string name="vendidas">Las más vendidas</string>
+    <string name="cargando">Cargando&#8230;</string>
+    <string name="imagenProducto">Imagen del Producto</string>
+    <string name="productoAlerta">Foto del producto en AlertDialog</string>
+    <string name="ThumbailVideosYoutube">ThumbailVideos</string>
+    <string name="facebook">Facebook Fotoceramica</string>
+    <string name="fb"><u>https://www.facebook.com/fotoceramicperu</u></string>
+    <string name="youtube">FotoCeramica Peru</string>
+    <string name="youtubeweb">Youtube de Fotoceramica</string>
+    <string name="direccion">Jr Moquegua N° 157 Edificio Jesus Maria /OFIC. 402-B - LIMA 0 51</string>
+    <string name="direccionFoto">Dirección de Fotoceramica</string>
+    <string name="telefonoFoto">Telefono de Fotoceramica</string>
+    <string name="fono">444&#8211;1444</string>
+    <string name="emailFoto">Email de Fotoceramica</string>
+    <string name="email">fotoceramicaperu@hotmail.com</string>
+    <string name="LogoInfo">Logo en Info de Fotoceramica</string>
+
+
+</resources>

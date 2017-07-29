@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.jorgepc.fotoceramica.FragmentInicio"
+    android:orientation="vertical"
+    >
+
+
+    <me.grantland.widget.AutofitTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vendidas"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:typeface="monospace"
+        android:textSize="70sp"
+        app:minTextSize="20sp"
+        android:maxLines="1"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerVendidas"
+        android:overScrollMode="never"
+        />
+
+
+
+</LinearLayout>

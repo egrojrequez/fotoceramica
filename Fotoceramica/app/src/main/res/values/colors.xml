@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#B71C1C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="textoFoto">#EF5350</color>
+    <color name="blanco">#FFFFFF</color>
+    <color name="negro">#000000</color>
+    <color name="fondoheader">#FAFAFA</color>
+    <color name="fondoframe">#EEEEEE</color>
+    <color name="fondobttom">#F5F5F5</color>
+    <color name="toolbar">#F44336</color>
+    <color name="beforetoolbar">#B71C1C</color>
+    <color name="precio">#E65100</color>
+    <color name="cargando">#795548</color>
+    <color name="link">#1565C0</color>
+    <color name="textoDescr">#424242</color>
+
+
+
+
+
+
+
+
+
+
+</resources>

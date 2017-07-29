@@ -1,0 +1,212 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="com.example.jorgepc.fotoceramica.FragmentInfo">
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    android:overScrollMode="never"
+    app:cardCornerRadius="4dp"
+
+    >
+
+
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:scrollbars="none"
+     android:overScrollMode="never"
+     >
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_margin="10dp"
+      >
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:src="@drawable/fondo"
+          android:contentDescription="@string/LogoInfo"
+          />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.2dp"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center"
+        />
+
+
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_place"
+            android:contentDescription="@string/direccionFoto"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/direccion"
+            android:typeface="serif"
+            android:textColor="@color/textoDescr"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_phone"
+            android:contentDescription="@string/telefonoFoto"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/fono"
+            android:typeface="serif"
+            android:textColor="@color/textoDescr"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_email"
+            android:contentDescription="@string/emailFoto"
+            android:layout_gravity="center"
+            />
+
+        <me.grantland.widget.AutofitTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/email"
+            android:typeface="serif"
+            android:lines="1"
+            app:minTextSize="10sp"
+            android:maxLines="1"
+            android:textColor="@color/textoDescr"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/facebook"
+                android:contentDescription="@string/facebook"
+                android:layout_gravity="center"
+                />
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/txtFB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/fb"
+            android:typeface="serif"
+            android:maxLines="2"
+            android:textSize="16sp"
+            app:minTextSize="10sp"
+            android:textColor="@color/link"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/youtube"
+            android:contentDescription="@string/youtubeweb"
+            android:layout_gravity="center"
+            />
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/txtYoutube"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:maxLines="2"
+            android:textSize="16sp"
+            app:minTextSize="1sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:text="@string/youtube"
+            android:typeface="serif"
+            android:textColor="@color/colorPrimary"
+            />
+
+
+     </LinearLayout>
+
+
+    </LinearLayout>
+
+  </ScrollView>
+
+</android.support.v7.widget.CardView>
+
+</LinearLayout>

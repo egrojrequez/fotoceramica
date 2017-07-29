@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuInicio"
+        android:title="@string/Inicio"
+        android:icon="@drawable/ic_home"
+        />
+
+
+    <item
+        android:id="@+id/menuVideosProd"
+        android:title="@string/videos"
+        android:icon="@drawable/ic_video_library"
+        />
+
+    <item
+        android:id="@+id/menuInfo"
+        android:title="@string/informacion"
+        android:icon="@drawable/ic_info"
+        />
+
+    <item
+        android:id="@+id/menuVideosTestiomonios"
+        android:title="@string/testimonios"
+        android:icon="@drawable/ic_videocam"
+        />
+
+
+
+
+
+
+
+
+
+
+
+
+</menu>

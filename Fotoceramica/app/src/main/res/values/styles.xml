@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/toolbar</item>
+        <item name="colorPrimaryDark">@color/beforetoolbar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listDivider"> @android:color/transparent </item>
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/blanco</item>
+        <item name="android:textColor">@color/negro</item>
+    </style>
+
+
+</resources>
